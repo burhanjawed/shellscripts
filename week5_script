@@ -1,0 +1,21 @@
+#!/bin/bash
+#This is my first script - Case logic
+#Author: Burhan Jawed
+echo "What is your favorite color"
+read color
+case "$color" in
+	"red")
+		echo "Red is awesome"
+		;;
+	"blue")
+		echo "Blue is ok"
+		;;
+	"green")
+		echo "Green is color of money"
+		;;
+	*)
+		echo "Unknown color"
+		;;
+esac
+
+
